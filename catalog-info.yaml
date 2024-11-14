@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sdfsdf
+  description: sdfds
+  annotations:
+    github.com/project-slug: janus-qe/test-scaffolded-keycloak
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/createdAt: 11/14/2024, 7:09:28 AM
+    custom.io/other: value
+  labels:
+    other: test-label
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:janus-qe/maintainers
+  scaffoldedFrom: template:default/create-react-app-template-with-timestamp-entityref

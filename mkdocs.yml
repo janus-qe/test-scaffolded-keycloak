@@ -1,0 +1,8 @@
+site_name: "sdfsdf"
+site_description: "sdfds"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
